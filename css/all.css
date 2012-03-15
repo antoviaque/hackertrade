@@ -1,6 +1,6 @@
 body {
 	background-color: #f0f0f0;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 12px;
 	color: #232323;
 	line-height: 1.5em;
@@ -83,7 +83,7 @@ input[type=text], textarea {
     background-color: #565656;
     color: #f0f0f0;
     padding: 10px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 12px;
     border: none;
 }
@@ -124,7 +124,7 @@ button.apply {
 	margin-top: 30px;
 	width: 100px;
 	height: 30px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
     
     background-color: hsl(287, 0%, 41%) !important; 
     background-repeat: repeat-x; 
