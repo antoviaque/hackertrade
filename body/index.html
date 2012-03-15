@@ -1,0 +1,45 @@
+        <div class="slider">
+            <div class="slides_container">
+                <div><img src="img/1.jpg" /></div>
+                <div><img src="img/2.jpg" /></div>
+                <div><img src="img/3.jpg" /></div>
+                <div><img src="img/4.jpg" /></div>
+                <div><img src="img/5.jpg" /></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="menu">
+                <span class="menu_left">
+                    <span class="selected">Home</span> |
+                    <a href="about.html">About</a>
+                </span>
+                <span class="menu_right">
+                    Applying: 
+                    <a href="apply_hacker.html">Hackers</a> |
+                    <a href="apply_client.html">Clients</a>
+                </span>
+            </div>
+            <p>Hacker Trade is a <strong>marketplace</strong> for <strong>freelance hackers</strong> and <strong>no-nonsense clients</strong>. Designed for people who want to handle their development contracting online, but still value results and quality as much as price.</p>
+            <p>Taking applications from both contractors and clients, we work with both parties to find the right match for your project or your skills. We help you, throughout the project, to maintain a lively and constructive collaboration until completion. </p>
+            <p>Hackers can focus on code, and clients get peace of mind.</p>
+            <p><a href="about.html">Read more...</a></p>
+        </div>            
+        
+        <div class="footer">
+            Hacker Trade was heavily influenced by <a href="http://ycombinator.com/">Y Combinator</a> and
+            <a href="http://hackerschool.com/">Hacker School</a>. We're not affiliated, though.
+            <a href="credits.html">Images credits</a>.            
+        </div>
+
+<!-- JavaScript -->
+<script type="text/javascript" src="js/dist/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/dist/jquery.slides.min.js"></script>
+<script type="text/javascript">
+    (function($) {
+        $(".slider").slides({
+            play: 4000
+        });
+    })(jQuery);
+</script>
+
