@@ -67,7 +67,7 @@ class Application(resource.Resource):
         defer.returnValue(result)
 
     def respond(self, result, request):
-        request.setResponseCode(407)
+        request.setResponseCode(307)
         if result:
             request.setHeader("Location", "%s/apply_success.html" % DOMAIN)
         else:
