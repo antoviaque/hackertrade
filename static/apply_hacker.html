@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Hacker Trade - Where Good Developers Meet No-Nonsense Clients</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+
+    <div class="central">
+        <div class="header">
+            <a href="/"><img class="logo" src="img/logo.png" alt="Logo" /></a>
+        </div>
+
+        <div class="content">
+            <div class="menu">
+                <span class="menu_left">
+                    <a href="/">Home</a> |
+                    <a href="about.html">About</a>
+                </span>
+                <span class="menu_right">
+                    Applying: 
+                    <span class="selected">Hackers</span> |
+                    <a href="apply_client.html">Clients</a>
+                </span>
+            </div>
+
+<h1>Application - Hackers</h1>
+<p>If you'd like to find clients through <em>Hacker Trade</em>, please fill the following form. We respond personally to all applications.</p>
+
+<form action="http://localhost:6000/application/hacker" method="post">
+
+	<div class="field">
+	    <span class="field_name">Name:</span>
+	    <input name="name" type="text" />
+	</div>
+	
+	<div class="field">
+	    <span class="field_name">Email:</span>
+	    <input name="email" type="text" />
+	</div>
+	
+	<h2 class="question">Where can we read more about you, online?</h2>
+	<p class="description">Please provide any relevant link - Github/Gitorious repositories, Blog/HN/G+/Facebook/Stack Overflow posts, pull request or ticket URLs of your open source contributions, etc.</p>
+	<textarea name="links"></textarea>
+	
+	<h2 class="question">Have you already worked for clients over the net?</h2>
+	<p class="description">If you did, please describe the most relevant projects. What did you do precisely? How did you work with the clients?</p>
+	<textarea name="previous_works"></textarea>
+	
+	<h2 class="question">How much do you usually charge?</h2>
+	<p class="description">Please provide the daily rate you'd be happy to work for. Simply be honest, and reflecting your skill level and experience; it will make it easier to match you up with the right client.</p>
+	<textarea name="price"></textarea>
+	
+	<h2 class="question">What are your availabilities?</h2>
+	<p class="description">Do you have any current obligations (contract work or employment)? How much time per week would you be able to guarantee, and for how long?</p>
+	<textarea name="availabilities"></textarea>
+	
+	<button class="apply" type="sumbit">Apply</button>
+
+</form>
+
+<p>&nbsp;</p>
+
+</div>    </div> 
+</body>
+
+</html>
+
+

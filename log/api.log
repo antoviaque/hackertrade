@@ -1,0 +1,623 @@
+2012-03-18 16:15:42-0400 [-] Log opened.
+2012-03-18 16:15:42-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 16:15:42-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 16:15:42-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 16:15:42-0400 [-] Starting factory <twisted.web.server.Site instance at 0x9833d4c>
+2012-03-18 16:15:45-0400 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:20:15:44 +0000] "GET / HTTP/1.1" 405 233 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 16:15:45-0400 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:20:15:44 +0000] "GET /favicon.ico HTTP/1.1" 405 244 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 16:15:45-0400 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:20:15:44 +0000] "GET /favicon.ico HTTP/1.1" 405 244 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 16:15:55-0400 [HTTPChannel,1,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:20:15:54 +0000] "POST / HTTP/1.1" 200 26 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 16:15:55-0400 [HTTPChannel,1,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:20:15:55 +0000] "GET /favicon.ico HTTP/1.1" 405 244 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 16:15:55-0400 [HTTPChannel,1,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:20:15:55 +0000] "GET /favicon.ico HTTP/1.1" 405 244 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 16:15:59-0400 [HTTPChannel,1,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:20:15:59 +0000] "POST / HTTP/1.1" 200 26 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 16:16:03-0400 [HTTPChannel,1,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:20:16:03 +0000] "POST / HTTP/1.1" 200 26 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 16:17:31-0400 [HTTPChannel,1,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:20:17:31 +0000] "POST / HTTP/1.1" 200 26 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 16:17:42-0400 [HTTPChannel,1,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:20:17:42 +0000] "POST / HTTP/1.1" 200 26 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 16:24:19-0400 [HTTPChannel,2,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:20:24:18 +0000] "POST / HTTP/1.1" 200 224 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 17:00:57-0400 [-] Received SIGINT, shutting down.
+2012-03-18 17:00:57-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 17:00:57-0400 [-] Stopping factory <twisted.web.server.Site instance at 0x9833d4c>
+2012-03-18 17:00:57-0400 [-] Main loop terminated.
+2012-03-18 17:00:57-0400 [-] Server Shut Down.
+2012-03-18 17:00:58-0400 [-] Log opened.
+2012-03-18 17:00:58-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 17:00:58-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 17:00:58-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 17:00:58-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb70709ec>
+2012-03-18 17:01:05-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:05-0400 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:21:01:04 +0000] "POST / HTTP/1.1" 500 296 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 17:01:05-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 3 seconds
+2012-03-18 17:01:05-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:08-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:08-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:01:08-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:16-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:16-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 11 seconds
+2012-03-18 17:01:16-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:27-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:27-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 7 seconds
+2012-03-18 17:01:27-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:35-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:35-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:01:35-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:43-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:43-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:01:43-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:52-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:01:52-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:01:52-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:02-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:02-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 12 seconds
+2012-03-18 17:02:02-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:15-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:15-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:02:15-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:23-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:23-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 10 seconds
+2012-03-18 17:02:23-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:34-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:34-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:02:34-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:42-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:42-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 11 seconds
+2012-03-18 17:02:42-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:54-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:02:54-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:02:54-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:02-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:02-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 10 seconds
+2012-03-18 17:03:02-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:12-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:12-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 10 seconds
+2012-03-18 17:03:12-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:22-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:22-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 7 seconds
+2012-03-18 17:03:22-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:30-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:30-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 10 seconds
+2012-03-18 17:03:30-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:41-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:41-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:03:41-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:49-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:49-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 7 seconds
+2012-03-18 17:03:49-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:56-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:03:56-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:03:56-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:05-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:05-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:04:05-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:14-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:14-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 11 seconds
+2012-03-18 17:04:14-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:25-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:25-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:04:25-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:34-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:34-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 11 seconds
+2012-03-18 17:04:34-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:45-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:45-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 10 seconds
+2012-03-18 17:04:45-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:55-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:04:55-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:04:55-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:05-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:05-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:05:05-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:14-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:14-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:05:14-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:22-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:22-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:05:22-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:32-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:32-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:05:32-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:41-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:41-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:05:41-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:50-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:05:50-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:05:50-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:00-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:00-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:06:00-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:08-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:08-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 11 seconds
+2012-03-18 17:06:08-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:19-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:19-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:06:19-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:29-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:29-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 11 seconds
+2012-03-18 17:06:29-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:41-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:41-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 6 seconds
+2012-03-18 17:06:41-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:47-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:47-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 10 seconds
+2012-03-18 17:06:47-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:58-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:06:58-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 10 seconds
+2012-03-18 17:06:58-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:07:09-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:07:09-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:07:09-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:07:18-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:07:18-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:07:18-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:07:28-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:07:28-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 12 seconds
+2012-03-18 17:07:28-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:07:41-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:07:41-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:07:41-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:07:51-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:07:51-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:07:51-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:00-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:00-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:08:00-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:10-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:10-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 10 seconds
+2012-03-18 17:08:10-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:21-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:21-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:08:21-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:29-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:29-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 10 seconds
+2012-03-18 17:08:29-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:39-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:39-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:08:39-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:49-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:49-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:08:49-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:57-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:08:57-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 5 seconds
+2012-03-18 17:08:57-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:02-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:02-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:09:02-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:11-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:11-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:09:11-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:20-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:20-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 7 seconds
+2012-03-18 17:09:20-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:28-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:28-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:09:28-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:38-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:38-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 10 seconds
+2012-03-18 17:09:38-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:48-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:48-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 8 seconds
+2012-03-18 17:09:48-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:57-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:09:57-0400 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 10 seconds
+2012-03-18 17:09:57-0400 [Uninitialized] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:10:08-0400 [-] Starting factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:10:08-0400 [MongoProtocol,client] Unhandled error in Deferred:
+2012-03-18 17:10:08-0400 [MongoProtocol,client] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1076, in gotResult
+	    _inlineCallbacks(r, g, deferred)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1063, in _inlineCallbacks
+	    deferred.callback(e.value)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 361, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 455, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 542, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/antoviaque/Documents/hackertrade/site/api/api.py", line 36, in respond
+	    request.write(result)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/server.py", line 138, in write
+	    http.Request.write(self, data)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/http.py", line 898, in write
+	    raise RuntimeError('Request.write called on a request after '
+	exceptions.RuntimeError: Request.write called on a request after Request.finish was called.
+	
+2012-03-18 17:10:21-0400 [HTTPChannel,1,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0x87df20c>
+2012-03-18 17:10:21-0400 [HTTPChannel,1,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:21:10:21 +0000] "POST / HTTP/1.1" 500 296 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 17:10:21-0400 [MongoProtocol,client] Unhandled error in Deferred:
+2012-03-18 17:10:21-0400 [MongoProtocol,client] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1076, in gotResult
+	    _inlineCallbacks(r, g, deferred)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1063, in _inlineCallbacks
+	    deferred.callback(e.value)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 361, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 455, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 542, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/antoviaque/Documents/hackertrade/site/api/api.py", line 36, in respond
+	    request.write(result)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/server.py", line 138, in write
+	    http.Request.write(self, data)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/http.py", line 898, in write
+	    raise RuntimeError('Request.write called on a request after '
+	exceptions.RuntimeError: Request.write called on a request after Request.finish was called.
+	
+2012-03-18 17:10:57-0400 [-] Received SIGINT, shutting down.
+2012-03-18 17:10:57-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 17:10:57-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb70709ec>
+2012-03-18 17:10:57-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0x87df34c> will retry in 2 seconds
+2012-03-18 17:10:57-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0x87df20c>
+2012-03-18 17:10:57-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0x87b816c> will retry in 9 seconds
+2012-03-18 17:10:57-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0x87b802c>
+2012-03-18 17:10:57-0400 [-] Main loop terminated.
+2012-03-18 17:10:57-0400 [-] Server Shut Down.
+2012-03-18 17:10:58-0400 [-] Log opened.
+2012-03-18 17:10:58-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 17:10:58-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 17:10:58-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 17:10:58-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb71269ec>
+2012-03-18 17:11:01-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0x8d2802c>
+2012-03-18 17:11:01-0400 [MongoProtocol,client] Unhandled error in Deferred:
+2012-03-18 17:11:01-0400 [MongoProtocol,client] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1076, in gotResult
+	    _inlineCallbacks(r, g, deferred)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1063, in _inlineCallbacks
+	    deferred.callback(e.value)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 361, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 455, in _startRunCallbacks
+	    self._runCallbacks()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 542, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/home/antoviaque/Documents/hackertrade/site/api/api.py", line 36, in respond
+	    request.write(result)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/server.py", line 138, in write
+	    http.Request.write(self, data)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/http.py", line 948, in write
+	    self.sentLength = self.sentLength + len(data)
+	exceptions.TypeError: object of type 'ObjectId' has no len()
+	
+2012-03-18 17:11:35-0400 [-] Received SIGINT, shutting down.
+2012-03-18 17:11:35-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 17:11:35-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb71269ec>
+2012-03-18 17:11:35-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0x8d2816c> will retry in 2 seconds
+2012-03-18 17:11:35-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0x8d2802c>
+2012-03-18 17:11:35-0400 [-] Main loop terminated.
+2012-03-18 17:11:35-0400 [-] Server Shut Down.
+2012-03-18 17:11:37-0400 [-] Log opened.
+2012-03-18 17:11:37-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 17:11:37-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 17:11:37-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 17:11:37-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb70349ec>
+2012-03-18 17:11:38-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0x97f302c>
+2012-03-18 17:11:38-0400 [MongoProtocol,client] 127.0.0.1 - - [18/Mar/2012:21:11:38 +0000] "POST / HTTP/1.1" 200 24 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 17:35:53-0400 [HTTPChannel,2,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0x97f650c>
+2012-03-18 17:35:53-0400 [MongoProtocol,client] 127.0.0.1 - - [18/Mar/2012:21:35:52 +0000] "POST / HTTP/1.1" 200 24 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 17:38:23-0400 [HTTPChannel,3,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0x97f62ac>
+2012-03-18 17:38:23-0400 [MongoProtocol,client] 127.0.0.1 - - [18/Mar/2012:21:38:22 +0000] "POST / HTTP/1.1" 200 24 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 17:52:58-0400 [-] Received SIGINT, shutting down.
+2012-03-18 17:52:58-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 17:52:58-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb70349ec>
+2012-03-18 17:52:58-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0x97f664c> will retry in 2 seconds
+2012-03-18 17:52:58-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0x97f650c>
+2012-03-18 17:52:58-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0x97f632c> will retry in 2 seconds
+2012-03-18 17:52:58-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0x97f62ac>
+2012-03-18 17:52:58-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0x97f316c> will retry in 2 seconds
+2012-03-18 17:52:58-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0x97f302c>
+2012-03-18 17:52:58-0400 [-] Main loop terminated.
+2012-03-18 17:52:58-0400 [-] Server Shut Down.
+2012-03-18 17:52:59-0400 [-] Log opened.
+2012-03-18 17:52:59-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 17:52:59-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 17:52:59-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 17:52:59-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb71a4aac>
+2012-03-18 17:53:04-0400 [HTTPChannel,0,127.0.0.1] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/http.py", line 1349, in dataReceived
+	    finishCallback(data[contentLength:])
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/http.py", line 1563, in _finishRequestBody
+	    self.allContentReceived()
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/http.py", line 1619, in allContentReceived
+	    req.requestReceived(command, path, version)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/http.py", line 773, in requestReceived
+	    self.process()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/server.py", line 127, in process
+	    self.render(resrc)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/server.py", line 147, in render
+	    body = resrc.render(self)
+	exceptions.AttributeError: 'NoneType' object has no attribute 'render'
+	
+2012-03-18 17:53:04-0400 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:21:53:03 +0000] "POST / HTTP/1.1" 500 5470 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 17:54:31-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0xb7134cec>
+2012-03-18 17:54:31-0400 [MongoProtocol,client] 127.0.0.1 - - [18/Mar/2012:21:54:31 +0000] "POST /application/client HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 17:55:50-0400 [-] Received SIGINT, shutting down.
+2012-03-18 17:55:50-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 17:55:50-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb71a4aac>
+2012-03-18 17:55:50-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0xb7134b0c> will retry in 2 seconds
+2012-03-18 17:55:50-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0xb7134cec>
+2012-03-18 17:55:50-0400 [-] Main loop terminated.
+2012-03-18 17:55:50-0400 [-] Server Shut Down.
+2012-03-18 17:55:50-0400 [-] Log opened.
+2012-03-18 17:55:50-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 17:55:50-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 17:55:50-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 17:55:50-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb71f4acc>
+2012-03-18 17:55:56-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0xb717b2cc>
+2012-03-18 17:55:56-0400 [Uninitialized] Unhandled error in Deferred:
+2012-03-18 17:55:56-0400 [Uninitialized] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 361, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 455, in _startRunCallbacks
+	    self._runCallbacks()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 542, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1076, in gotResult
+	    _inlineCallbacks(r, g, deferred)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1020, in _inlineCallbacks
+	    result = g.send(result)
+	  File "/home/antoviaque/Documents/hackertrade/site/api/api.py", line 32, in record_application_client
+	    new_application['date_added'] = time.now()
+	exceptions.AttributeError: 'module' object has no attribute 'now'
+	
+2012-03-18 17:56:20-0400 [-] Received SIGINT, shutting down.
+2012-03-18 17:56:20-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 17:56:20-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb71f4acc>
+2012-03-18 17:56:20-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0xb717b32c> will retry in 2 seconds
+2012-03-18 17:56:20-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0xb717b2cc>
+2012-03-18 17:56:20-0400 [-] Main loop terminated.
+2012-03-18 17:56:20-0400 [-] Server Shut Down.
+2012-03-18 17:56:21-0400 [-] Log opened.
+2012-03-18 17:56:21-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 17:56:21-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 17:56:21-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 17:56:21-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb70caacc>
+2012-03-18 17:56:24-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0xb70512cc>
+2012-03-18 17:56:24-0400 [Uninitialized] Unhandled error in Deferred:
+2012-03-18 17:56:24-0400 [Uninitialized] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 361, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 455, in _startRunCallbacks
+	    self._runCallbacks()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 542, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1076, in gotResult
+	    _inlineCallbacks(r, g, deferred)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1020, in _inlineCallbacks
+	    result = g.send(result)
+	  File "/home/antoviaque/Documents/hackertrade/site/api/api.py", line 32, in record_application_client
+	    new_application['date_added'] = datetime.now()
+	exceptions.AttributeError: 'module' object has no attribute 'now'
+	
+2012-03-18 17:56:57-0400 [-] Received SIGINT, shutting down.
+2012-03-18 17:56:57-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 17:56:57-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb70caacc>
+2012-03-18 17:56:57-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0xb705132c> will retry in 2 seconds
+2012-03-18 17:56:57-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0xb70512cc>
+2012-03-18 17:56:57-0400 [-] Main loop terminated.
+2012-03-18 17:56:57-0400 [-] Server Shut Down.
+2012-03-18 17:56:58-0400 [-] Log opened.
+2012-03-18 17:56:58-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 17:56:58-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 17:56:58-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 17:56:58-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb70dcaec>
+2012-03-18 17:57:03-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0xb70622ec>
+2012-03-18 17:57:03-0400 [MongoProtocol,client] 127.0.0.1 - - [18/Mar/2012:21:57:03 +0000] "POST /application/client HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 17:59:02-0400 [-] Received SIGINT, shutting down.
+2012-03-18 17:59:02-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 17:59:02-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb70dcaec>
+2012-03-18 17:59:02-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0xb706234c> will retry in 2 seconds
+2012-03-18 17:59:02-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0xb70622ec>
+2012-03-18 17:59:02-0400 [-] Main loop terminated.
+2012-03-18 17:59:02-0400 [-] Server Shut Down.
+2012-03-18 17:59:03-0400 [-] Log opened.
+2012-03-18 17:59:03-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 17:59:03-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 17:59:03-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 17:59:03-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb7120acc>
+2012-03-18 17:59:08-0400 [HTTPChannel,0,127.0.0.1] ['application'] | ['client']
+2012-03-18 17:59:08-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0xb70a62cc>
+2012-03-18 17:59:08-0400 [MongoProtocol,client] 127.0.0.1 - - [18/Mar/2012:21:59:08 +0000] "POST /application/client HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 18:06:07-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:06:07-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:06:07-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb7120acc>
+2012-03-18 18:06:07-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0xb70a632c> will retry in 2 seconds
+2012-03-18 18:06:07-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0xb70a62cc>
+2012-03-18 18:06:07-0400 [-] Main loop terminated.
+2012-03-18 18:06:07-0400 [-] Server Shut Down.
+2012-03-18 18:06:08-0400 [-] Log opened.
+2012-03-18 18:06:08-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 18:06:08-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 18:06:08-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 18:06:08-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb716caec>
+2012-03-18 18:06:19-0400 [HTTPChannel,0,127.0.0.1] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/protocols/basic.py", line 564, in dataReceived
+	    why = self.lineReceived(line)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/http.py", line 1551, in lineReceived
+	    self.allContentReceived()
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/http.py", line 1619, in allContentReceived
+	    req.requestReceived(command, path, version)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/http.py", line 773, in requestReceived
+	    self.process()
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/server.py", line 127, in process
+	    self.render(resrc)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/server.py", line 147, in render
+	    body = resrc.render(self)
+	exceptions.AttributeError: 'NoneType' object has no attribute 'render'
+	
+2012-03-18 18:06:19-0400 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:22:06:19 +0000] "GET / HTTP/1.1" 500 5468 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 18:08:21-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:08:21-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:08:21-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb716caec>
+2012-03-18 18:08:21-0400 [-] Main loop terminated.
+2012-03-18 18:08:21-0400 [-] Server Shut Down.
+2012-03-18 18:08:22-0400 [-] Log opened.
+2012-03-18 18:08:22-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 18:08:22-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 18:08:22-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 18:08:22-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb7215aac>
+2012-03-18 18:08:27-0400 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:22:08:26 +0000] "GET / HTTP/1.1" 404 167 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 18:10:59-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:10:59-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:10:59-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb7215aac>
+2012-03-18 18:10:59-0400 [-] Main loop terminated.
+2012-03-18 18:10:59-0400 [-] Server Shut Down.
+2012-03-18 18:11:30-0400 [-] Log opened.
+2012-03-18 18:11:30-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 18:11:30-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 18:11:30-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 18:11:30-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb7143acc>
+2012-03-18 18:11:36-0400 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:22:11:36 +0000] "POST /application/client HTTP/1.1" 200 5 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 18:12:30-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:12:30-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:12:30-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb7143acc>
+2012-03-18 18:12:30-0400 [-] Main loop terminated.
+2012-03-18 18:12:30-0400 [-] Server Shut Down.
+2012-03-18 18:12:31-0400 [-] Log opened.
+2012-03-18 18:12:31-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 18:12:31-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 18:12:31-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 18:12:31-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb7154acc>
+2012-03-18 18:12:32-0400 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [18/Mar/2012:22:12:32 +0000] "POST /application/client HTTP/1.1" 500 328 "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 18:17:15-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:17:15-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:17:15-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb7154acc>
+2012-03-18 18:17:15-0400 [-] Main loop terminated.
+2012-03-18 18:17:15-0400 [-] Server Shut Down.
+2012-03-18 18:17:16-0400 [-] Log opened.
+2012-03-18 18:17:16-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 18:17:16-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 18:17:16-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 18:17:16-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb7153acc>
+2012-03-18 18:17:20-0400 [HTTPChannel,0,127.0.0.1] Unhandled error in Deferred:
+2012-03-18 18:17:20-0400 [HTTPChannel,0,127.0.0.1] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/server.py", line 147, in render
+	    body = resrc.render(self)
+	  File "/usr/lib/python2.7/dist-packages/twisted/web/resource.py", line 216, in render
+	    return m(request)
+	  File "/home/antoviaque/Documents/hackertrade/site/api/api.py", line 38, in render_POST
+	    d = self.record_application(role, request.args)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1141, in unwindGenerator
+	    return _inlineCallbacks(None, f(*args, **kwargs), Deferred())
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1020, in _inlineCallbacks
+	    result = g.send(result)
+	  File "/home/antoviaque/Documents/hackertrade/site/api/api.py", line 44, in record_application
+	    db = yield self.get_db()
+	exceptions.AttributeError: Application instance has no attribute 'get_db'
+	
+2012-03-18 18:17:33-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:17:33-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:17:33-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb7153acc>
+2012-03-18 18:17:33-0400 [-] Main loop terminated.
+2012-03-18 18:17:33-0400 [-] Server Shut Down.
+2012-03-18 18:17:34-0400 [-] Log opened.
+2012-03-18 18:17:34-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 18:17:34-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 18:17:34-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 18:17:34-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb7118acc>
+2012-03-18 18:17:37-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0xb709e2ec>
+2012-03-18 18:17:37-0400 [Uninitialized] Unhandled error in Deferred:
+2012-03-18 18:17:37-0400 [Uninitialized] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 361, in callback
+	    self._startRunCallbacks(result)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 455, in _startRunCallbacks
+	    self._runCallbacks()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 542, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1076, in gotResult
+	    _inlineCallbacks(r, g, deferred)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1020, in _inlineCallbacks
+	    result = g.send(result)
+	  File "/home/antoviaque/Documents/hackertrade/site/api/api.py", line 54, in record_application
+	    for field_name in fields_names:
+	exceptions.UnboundLocalError: local variable 'fields_names' referenced before assignment
+	
+2012-03-18 18:18:02-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:18:02-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:18:02-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb7118acc>
+2012-03-18 18:18:02-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0xb709e34c> will retry in 2 seconds
+2012-03-18 18:18:02-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0xb709e2ec>
+2012-03-18 18:18:02-0400 [-] Main loop terminated.
+2012-03-18 18:18:02-0400 [-] Server Shut Down.
+2012-03-18 18:18:03-0400 [-] Log opened.
+2012-03-18 18:18:03-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 18:18:03-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 18:18:03-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 18:18:03-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb71e1acc>
+2012-03-18 18:18:05-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0xb71672ec>
+2012-03-18 18:18:05-0400 [MongoProtocol,client] 127.0.0.1 - - [18/Mar/2012:22:18:05 +0000] "POST /application/client HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 18:19:03-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0xb71e1eec>
+2012-03-18 18:19:03-0400 [MongoProtocol,client] 127.0.0.1 - - [18/Mar/2012:22:19:03 +0000] "POST /application/hacker HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 18:35:39-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:35:39-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:35:39-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb71e1acc>
+2012-03-18 18:35:39-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0xb716734c> will retry in 2 seconds
+2012-03-18 18:35:39-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0xb71672ec>
+2012-03-18 18:35:39-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0xb71e1dcc> will retry in 2 seconds
+2012-03-18 18:35:39-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0xb71e1eec>
+2012-03-18 18:35:39-0400 [-] Main loop terminated.
+2012-03-18 18:35:39-0400 [-] Server Shut Down.
+2012-03-18 18:35:42-0400 [-] Log opened.
+2012-03-18 18:35:42-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 18:35:42-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 18:35:42-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 18:35:42-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb7155acc>
+2012-03-18 18:35:48-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0xb70db2cc>
+2012-03-18 18:35:48-0400 [MongoProtocol,client] 127.0.0.1 - - [18/Mar/2012:22:35:47 +0000] "POST /application/hacker HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 18:36:22-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:36:22-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:36:22-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb7155acc>
+2012-03-18 18:36:22-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0xb70db32c> will retry in 2 seconds
+2012-03-18 18:36:22-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0xb70db2cc>
+2012-03-18 18:36:22-0400 [-] Main loop terminated.
+2012-03-18 18:36:22-0400 [-] Server Shut Down.
+2012-03-18 18:36:31-0400 [-] Log opened.
+2012-03-18 18:36:31-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 18:36:31-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 18:36:31-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 18:36:31-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb71aaacc>
+2012-03-18 18:37:02-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:37:02-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:37:02-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb71aaacc>
+2012-03-18 18:37:02-0400 [-] Main loop terminated.
+2012-03-18 18:37:02-0400 [-] Server Shut Down.
+2012-03-18 18:37:03-0400 [-] Log opened.
+2012-03-18 18:37:03-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 18:37:03-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 18:37:03-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 18:37:03-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb70caacc>
+2012-03-18 18:37:06-0400 [HTTPChannel,0,127.0.0.1] Starting factory <txmongo._MongoFactory instance at 0xb70502cc>
+2012-03-18 18:37:06-0400 [MongoProtocol,client] 127.0.0.1 - - [18/Mar/2012:22:37:06 +0000] "POST /application/hacker HTTP/1.1" 200 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:12.0a2) Gecko/20120218 Firefox/12.0a2"
+2012-03-18 18:38:51-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:38:51-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:38:51-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb70caacc>
+2012-03-18 18:38:51-0400 [MongoProtocol,client] <twisted.internet.tcp.Connector instance at 0xb705032c> will retry in 2 seconds
+2012-03-18 18:38:51-0400 [MongoProtocol,client] Stopping factory <txmongo._MongoFactory instance at 0xb70502cc>
+2012-03-18 18:38:51-0400 [-] Main loop terminated.
+2012-03-18 18:38:51-0400 [-] Server Shut Down.
+2012-03-18 18:38:52-0400 [-] Log opened.
+2012-03-18 18:38:52-0400 [-] twistd 11.0.0 (/usr/bin/python 2.7.2) starting up.
+2012-03-18 18:38:52-0400 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2012-03-18 18:38:52-0400 [-] twisted.web.server.Site starting on 6000
+2012-03-18 18:38:52-0400 [-] Starting factory <twisted.web.server.Site instance at 0xb705facc>
+2012-03-18 18:38:59-0400 [-] Received SIGINT, shutting down.
+2012-03-18 18:38:59-0400 [-] (TCP Port 6000 Closed)
+2012-03-18 18:38:59-0400 [-] Stopping factory <twisted.web.server.Site instance at 0xb705facc>
+2012-03-18 18:38:59-0400 [-] Main loop terminated.
+2012-03-18 18:38:59-0400 [-] Server Shut Down.
