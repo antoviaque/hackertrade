@@ -8,6 +8,12 @@ from datetime import datetime
 from twisted.internet import defer
 from twisted.web import resource, server, error
 
+
+# Config ###########################################################
+
+DOMAIN = "http://hackertrade.com"
+
+
 # Functions ########################################################
 
 @defer.inlineCallbacks
@@ -59,10 +65,11 @@ class Application(resource.Resource):
         defer.returnValue(result)
 
     def respond(self, result, request):
+        request.setResponseCode(407)
         if result:
-            request.setHeader("Refresh", "0; url=http://hackertrade.com/apply_success.html")
+            request.setHeader("Location", "%s/apply_success.html" % DOMAIN)
         else:
-            request.setHeader("Refresh", "0; url=http://hackertrade.com/apply_error.html")
+            request.setHeader("Location", "%s/apply_error.html" % DOMAIN)
             
         request.finish()
         
