@@ -27,7 +27,9 @@ def get_db():
 
 class API(resource.Resource):
     def getChild(self, name, request):
-        if name == 'application':
+        if name == 'api':
+            return self
+        elif name == 'application':
             return Application()
         else:
             return error.NoResource()
