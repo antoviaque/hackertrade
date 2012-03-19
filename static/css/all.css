@@ -198,6 +198,37 @@ button.apply:active {
     display: none;
 }
 
+.team_member {
+	padding: 10px 0px;
+}
+
+.team_member .name {
+	font-weight: bolder;
+}
+
+.team_member .photo {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.team_member.odd .photo {
+	float: left;
+	padding-right: 10px;
+}
+
+.team_member.even .photo {
+    float: right;
+	padding-left: 10px;
+}
+
+.team_member.odd p {
+	text-align: left;
+}
+
+.team_member.even p {
+    text-align: right;
+}
+
 .footer {
 	font-size: 10px;
 	font-style: italic;
