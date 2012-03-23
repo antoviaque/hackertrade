@@ -3,3 +3,6 @@
 log/*.log
 log/*.log.*
 log/*.pid
+tmp
+applications/static/applications.html
+
