@@ -22,6 +22,21 @@ def get_db():
     db = mongo.hackertrade
     defer.returnValue(db)
 
+def notify_team(subject, text):
+    import smtplib
+    import string
+ 
+    body = string.join((
+            "From: Hacker Trade Applications <team@hackertrade.com>",
+            "To: team@hackertrade.com",
+            "Subject: %s" % subject,
+            "",
+            text
+            ), "\r\n")
+    server = smtplib.SMTP('localhost')
+    server.sendmail('team@hackertrade.com', ['team@hackertrade.com'], body)
+    server.quit()
+
 
 # Classes ##########################################################
 
@@ -64,6 +79,10 @@ class Application(resource.Resource):
                 new_application[field_name] = args[field_name][0]
         
         result = yield applications.insert(new_application, safe=True)
+
+        if role == 'client':
+            notify_team("New client application!", repr(new_application))
+
         defer.returnValue(result)
 
     def respond(self, result, request):
